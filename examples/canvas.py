@@ -9,7 +9,7 @@ from twocaptcha import TwoCaptcha
 # you can just set the API key directly to it's value like:
 # api_key="1abc234de56fab7c89012d34e56fa7b8"
 
-api_key = os.getenv('APIKEY_2CAPTCHA', 'YOUR_API_KEY')
+api_key = os.getenv('APIKEY_2CAPTCHA', '5bc5a1c6286d60475e0eeeb84b4c6967')
 
 solver = TwoCaptcha(api_key)
 
